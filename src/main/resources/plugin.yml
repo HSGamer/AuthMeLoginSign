@@ -1,0 +1,6 @@
+name: AuthMeLoginSign
+version: '${project.version}'
+main: me.hsgamer.authmeloginsign.AuthMeLoginSign
+api-version: 1.13
+depend: [ AuthMe, ProtocolLib ]
+authors: [ HSGamer ]
