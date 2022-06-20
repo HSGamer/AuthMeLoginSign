@@ -53,10 +53,6 @@
                                     <pattern>me.hsgamer.hscore</pattern>
                                     <shadedPattern>me.hsgamer.authmeloginsign.core</shadedPattern>
                                 </relocation>
-                                <relocation>
-                                    <pattern>com.cryptomorin.xseries</pattern>
-                                    <shadedPattern>me.hsgamer.authmeloginsign.xseries</shadedPattern>
-                                </relocation>
                             </relocations>
                         </configuration>
                     </execution>
@@ -148,12 +144,6 @@
             <artifactId>annotations</artifactId>
             <version>23.0.0</version>
             <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.github.cryptomorin</groupId>
-            <artifactId>XSeries</artifactId>
-            <version>8.8.0</version>
         </dependency>
     </dependencies>
 </project>
